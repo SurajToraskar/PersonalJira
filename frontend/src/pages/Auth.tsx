@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
 
-export default function App() {
+export default function Auth() {
   return (
-    <div>
-      App
+    <div className="">
+      Auth
       <Outlet />
     </div>
   );
